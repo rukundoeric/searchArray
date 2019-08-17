@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SearchIt</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-nav">
+        <div class="title">
+          <p>SearchIT</p>
+        </div>
+        <div class="search">
+          <input
+            id="searchField"
+            type="text"
+            placeholder="City or State"
+          />
+        </div>
+      </div>
+      <div id="searchOutput" class="output hide">
+        <table border="0" id="outputTable">
+          <tr class="tr trhover dataHeader">
+            <td>City</td>
+            <td>State</td>
+            <td>Popuration</td>
+            <td>Growth</td>
+          </tr>
+          <tr class="tr trhover dataHeader">
+              <td>_____</td>
+              <td>_____</td>
+              <td>___________</td>
+              <td>_______</td>
+            </tr>
+          <tbody id="OutputContainer"></tbody>
+        </table>
+      </div>
+      <div id="cityInfodiv" class="cityInfo hide">
+        <p>City Information</p>
+        <div><label class="prop">City:</label><label  class="propvalue" id="cityInfo"></label></div>
+        <div><label class="prop">Growth from 2000 to 2013:</label><label class="propvalue" id="growthInfo"></label></div>
+        <div><label class="prop">Latitude:</label><label class="propvalue" id="latitudeInfo"></label></div>
+        <div><label class="prop">Longitude:</label><label class="propvalue" id="longitudeInfo"></label></div>
+        <div><label class="prop">Population:</label><label class="propvalue" id="populationInfo"></label></div>
+        <div><label class="prop">Rank:</label><label class="propvalue" id="rankInfo"></label></div>
+        <div><label class="prop">State:</label><label class="propvalue" id="stateInfo"></label></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
