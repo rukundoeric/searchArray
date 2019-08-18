@@ -62,38 +62,3 @@ td {
   height: 30px;
   cursor: pointer;
 }
-.trhover :hover{
-  background: rgb(236, 236, 236);
-}
-.hide{
-  display: none;
-}
-.cityInfo{
-  padding: 20px;
-  width: 380px;
-  height: 300px;
-  margin-top: 150px;
-  margin-left: 230px;
-  box-shadow:0px 0px 6px gray;
-  -moz-box-shadow:0px 0px 6px gray;
-  border-radius: 10px;
-}
-.cityInfo p{
-  font-size: 30px;
-  color: green;
-}
-.cityInfo div{
-  margin: 10px;
-}
-.cityInfo label{
-  font-size: 20px;
-  margin-left: 15px;
-}
-.prop{
-  color: rgba(18, 75, 46, 0.712);
-  font-weight: bold;
-}
-
-.propvalue{
-  font-weight: bold;
-}
